@@ -156,15 +156,18 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\clinicaController.cs" />
     <Compile Include="Controllers\doctorController.cs" />
+    <Compile Include="Controllers\enfermedadController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\pacienteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\clinicaDAL.cs" />
+    <Compile Include="Models\enfermedadDAL.cs" />
     <Compile Include="Models\entClinica.cs" />
     <Compile Include="Models\entDoctor.cs" />
     <Compile Include="Models\doctorDAL.cs" />
+    <Compile Include="Models\entEnfermedad.cs" />
     <Compile Include="Models\entPaciente.cs" />
     <Compile Include="Models\pacienteDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -211,6 +214,7 @@
     <Content Include="Views\clinica\Create.cshtml" />
     <Content Include="Views\paciente\Buscar.cshtml" />
     <Content Include="Views\paciente\Create.cshtml" />
+    <Content Include="Views\enfermedad\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
