@@ -1,4 +1,7 @@
 ﻿<!DOCTYPE html>
+.hide{
+  display:none;
+}
 <html>
 <head>
     <meta charset="utf-8" />
@@ -21,6 +24,10 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+
+                    <li id="doc">@Html.ActionLink("Doctor", "Create", "doctor")</li>
+                    <li id="pac">@Html.ActionLink("Paciente", "Create", "paciente")</li>
+                    <li id="cli">@Html.ActionLink("Clinica", "Create", "clinica")</li>
                     <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
                     <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
                 </ul>

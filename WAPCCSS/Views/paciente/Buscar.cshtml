@@ -1,4 +1,4 @@
-﻿@model WAPCCSS.Models.entClinica
+﻿@model WAPCCSS.Models.entPaciente
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -7,7 +7,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Buscar Clinica</title>
+    <title>Buscar Paciente</title>
     <style type="text/css">
         body {
             font-family: Arial;
@@ -41,16 +41,16 @@
     </style>
 </head>
 <body>
-    @using (Html.BeginForm("Buscar", "Clinica", FormMethod.Post))
+    @using (Html.BeginForm("Buscar", "Paciente", FormMethod.Post))
     {
         <table cellpadding="0" cellspacing="0">
             <tr>
-                <th colspan="2" align="center">Buscar Clinica</th>
+                <th colspan="2" align="center">Buscar Paciente</th>
             </tr>
             <tr>
-                <td>Codigo: </td>
+                <td>Cedula: </td>
                 <td>
-                    @Html.TextBoxFor(m => m.codigo)
+                    @Html.TextBoxFor(m => m.cedula)
                 </td>
             </tr>
             

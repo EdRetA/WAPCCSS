@@ -157,6 +157,7 @@
     <Compile Include="Controllers\clinicaController.cs" />
     <Compile Include="Controllers\doctorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\pacienteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -165,6 +166,7 @@
     <Compile Include="Models\entDoctor.cs" />
     <Compile Include="Models\doctorDAL.cs" />
     <Compile Include="Models\entPaciente.cs" />
+    <Compile Include="Models\pacienteDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -207,6 +209,8 @@
     <Content Include="Views\doctor\Buscar.cshtml" />
     <Content Include="Views\clinica\Buscar.cshtml" />
     <Content Include="Views\clinica\Create.cshtml" />
+    <Content Include="Views\paciente\Buscar.cshtml" />
+    <Content Include="Views\paciente\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

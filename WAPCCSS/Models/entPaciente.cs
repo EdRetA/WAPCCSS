@@ -12,7 +12,7 @@ namespace WAPCCSS.Models
         public string nombre { get; set; }
         public string apellido1 { get; set; }
         public string apellido2 { get; set; }
-        public DateTime fechanacimiento { get; set; }
+       // public DateTime fechanacimiento { get; set; }
         public Boolean genero { get; set; }
         public string contacto { get; set; }        
         public int pais { get; set; }
@@ -21,7 +21,7 @@ namespace WAPCCSS.Models
         public int estadocivil { get; set; }
         public string telefono { get; set; }
         public string email { get; set; }
-        public DateTime fecharegistro { get; set; }
+        //public DateTime fecharegistro { get; set; }
         public string ocupacion { get; set; }
 
     }
